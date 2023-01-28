@@ -5,8 +5,8 @@
                 <div class="h-16 mx-auto px-5 flex items-center justify-between">
                     <a class="text-white text-2xl hover:text-cyan-500 transition-colors cursor-pointer font-sans px-4">PCFusion</a>
                     <ul class="flex items-center gap-5">
-                        <li><a class="text-white hover:text-cyan-500 transition-colors" href="">Link 1</a></li>
-                        <li><a class="text-white hover:text-cyan-500 transition-colors" href="">Link 2</a></li>
+                        <li><a class="text-white hover:text-cyan-500 transition-colors" href="/about">Link 1</a></li>
+                        <li><a class="text-white hover:text-cyan-500 transition-colors" href="/">Link 2</a></li>
                         <li><a class="text-white hover:text-cyan-500 transition-colors" href="">Link 3</a></li>
                         <li><a class="text-white hover:text-cyan-500 transition-colors" href="">Link 4</a></li>
                         <li><a class="text-white hover:text-cyan-500 transition-colors" href="">Link 5</a></li>
