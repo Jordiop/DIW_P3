@@ -27,3 +27,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+Paginas consultadas y/o utilizadas para la realización del proyecto:
+https://www.corsair.com/es/es/
+https://pccomponentes.com/

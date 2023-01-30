@@ -1,15 +1,17 @@
 <template>
     <body>
         <header>
-            <div class="shadow bg-black w-full fixed top-0 z-50">
+            <div class="shadow bg-transparent w-full fixed top-0 z-50">
                 <div class="h-16 mx-auto px-5 flex items-center justify-between">
-                    <a class="text-white text-2xl hover:text-cyan-500 transition-colors cursor-pointer font-sans px-4">PCFusion</a>
+                    <div class="">
+                        <img class="w-32" src="@/assets/images/PCRev.png" alt="logo">
+                    </div>
                     <ul class="flex items-center gap-5">
-                        <li><a class="text-white hover:text-cyan-500 transition-colors" href="/about">Link 1</a></li>
-                        <li><a class="text-white hover:text-cyan-500 transition-colors" href="/">Link 2</a></li>
-                        <li><a class="text-white hover:text-cyan-500 transition-colors" href="">Link 3</a></li>
-                        <li><a class="text-white hover:text-cyan-500 transition-colors" href="">Link 4</a></li>
-                        <li><a class="text-white hover:text-cyan-500 transition-colors" href="">Link 5</a></li>
+                        <li><button class="bg-neutral-400 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"><a class="text-white transition-colors" href="/about">PCs</a></button></li>
+                        <li><button class="bg-neutral-400 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"><a class="text-white transition-colors" href="/about">Builder</a></button></li>
+                        <li><button class="bg-neutral-400 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"><a class="text-white transition-colors" href="/about">Keyboard</a></button></li>
+                        <li><button class="bg-neutral-400 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"><a class="text-white transition-colors" href="/about">Mouses</a></button></li>
+                        <li><button class="bg-neutral-400 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"><a class="text-white transition-colors" href="/about">Other</a></button></li>
                         <div class="min-h-screen bg-transparent py-6 flex flex-col justify-center sm:py-12">
                             <div class="flex items-center justify-center p-12">
                                 <div class=" relative inline-block text-left dropdown">
