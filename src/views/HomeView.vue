@@ -1,5 +1,6 @@
 <template>
   <link href="https://fonts.cdnfonts.com/css/son-of-a-glitch" rel="stylesheet">
+
   <body>
     <main class="p-1 bg-black">
       <div class="flex justify-center align-middle sm:max-w-fit mt-16">
@@ -325,6 +326,8 @@
             </div>
           </div>
         </div>
+        <!--Productos mas vendidos-->
+        <Recommended></Recommended>
       </div>
     </main>
   </body>
@@ -385,11 +388,13 @@ import "swiper/css/scrollbar"
 import "swiper/css/autoplay"
 // import required modules
 import { Navigation, Scrollbar, Autoplay } from "swiper";
+import Recommended from "@/components/Recommended.vue";
 
 export default {
   components: {
     Swiper,
     SwiperSlide,
+    Recommended,
   },
   setup() {
     return {
