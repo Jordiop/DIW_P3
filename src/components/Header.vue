@@ -2,7 +2,7 @@
 
     <body>
         <header>
-            <div class="shadow bg-transparent w-full fixed top-0 z-50">
+            <div class="shadow bg-black bg-opacity-70 w-full fixed top-0 z-50">
                 <div class="h-16 mx-auto px-5 flex items-center justify-between">
                     <div class="">
                         <img class="w-32" src="@/assets/images/PCRev.png" alt="logo">
