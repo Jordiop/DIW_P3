@@ -333,4 +333,14 @@
     </section>
 </template>
 <script>
+    function cargarProductos() {
+        const url = 'localhost:3000/pc'
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data)
+            })
+            .catch(error => console.log(error))
+    }
+    cargarProductos();
 </script>

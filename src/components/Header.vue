@@ -97,7 +97,7 @@ var navigation = [
     },
     {
         name: 'PC',
-        href: '/pc',
+        href: '/pcs',
         current: false
     },
     {

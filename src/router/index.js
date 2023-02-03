@@ -9,8 +9,8 @@ const router = createRouter({
             component: () =>
                 import ('../views/HomeView.vue')
         }, {
-            path: '/pc',
-            name: 'pc',
+            path: '/pcs',
+            name: 'pcs',
             component: () =>
                 import ('../views/PCView.vue')
         },
