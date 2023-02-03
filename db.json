@@ -1,249 +1,249 @@
 {
     "pc": [{
-            "id": "1",
+            "id": 1,
             "name": "PC Gaming Obelisk",
             "description": "i9-13900K / 32GB / 2TB SSD / RTX 4080",
             "img": "@/assets/img/api/pc/pc1.jpg"
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "PC Gaming Omen",
             "description": "i7-13700K / 16GB / 1TB SSD / RTX 3080",
             "img": "@/assets/img/api/pc/pc2.jpg"
         },
         {
-            "id": "3",
+            "id": 3,
             "name": "PC Gaming Predator",
             "description": "i5-13600K / 16GB / 512GB SSD / RTX 3070",
             "img": "@/assets/img/api/pc/pc3.jpg"
         },
         {
-            "id": "4",
+            "id": 4,
             "name": "PC Gaming Alien",
             "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
             "img": "@/assets/img/api/pc/pc4.jpg"
         }
     ],
     "keyboard": [{
-            "id": "1",
+            "id": 1,
             "name": "Keyboard Gaming",
             "description": "Keyboard Gaming",
             "img": "@/assets/img/api/keyboard/keyboard1.jpg"
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "Keyboard Gaming",
             "description": "Keyboard Gaming",
             "img": "@/assets/img/api/keyboard/keyboard2.jpg"
         },
         {
-            "id": "3",
+            "id": 3,
             "name": "Keyboard Gaming",
             "description": "Keyboard Gaming",
             "img": "@/assets/img/api/keyboard/keyboard3.jpg"
         },
         {
-            "id": "4",
+            "id": 4,
             "name": "Keyboard Gaming",
             "description": "Keyboard Gaming",
             "img": "@/assets/img/api/keyboard/keyboard4.jpg"
         }
     ],
     "mouse": [{
-            "id": "1",
+            "id": 1,
             "name": "Mouse Gaming",
             "description": "Mouse Gaming",
             "img": "@/assets/img/api/mouse/mouse1.jpg"
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "Mouse Gaming",
             "description": "Mouse Gaming",
             "img": "@/assets/img/api/mouse/mouse2.jpg"
         },
         {
-            "id": "3",
+            "id": 3,
             "name": "Mouse Gaming",
             "description": "Mouse Gaming",
             "img": "@/assets/img/api/mouse/mouse3.jpg"
         },
         {
-            "id": "4",
+            "id": 4,
             "name": "Mouse Gaming",
             "description": "Mouse Gaming",
             "img": "@/assets/img/api/mouse/mouse4.jpg"
         }
     ],
     "processor": [{
-            "id": "1",
+            "id": 1,
             "name": "i3-13500K",
             "description": "i3-13500K 4.1GHz 4C/4T",
             "img": "@/assets/img/api/components/components1.jpg"
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "i5-13600K",
             "description": "i5-13600K 4.1GHz 6C/6T",
             "img": "@/assets/img/api/components/components2.jpg"
         },
         {
-            "id": "3",
+            "id": 3,
             "name": "i7-13700K",
             "description": "i7-13700K 4.1GHz 8C/16T",
             "img": "@/assets/img/api/components/components3.jpg"
         },
         {
-            "id": "4",
+            "id": 4,
             "name": "i9-13900K",
             "description": "i9-13900K 4.1GHz 10C/20T",
             "img": "@/assets/img/api/components/components4.jpg"
         }
     ],
     "RAM": [{
-            "id": "1",
+            "id": 1,
             "name": "RAM 8GB",
             "description": "RAM 8GB 8GBx1",
             "img": "@/assets/img/api/components/components5.jpg"
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "RAM 16GB",
             "description": "RAM 16GB 8GBx2",
             "img": "@/assets/img/api/components/components6.jpg"
         },
         {
-            "id": "3",
+            "id": 3,
             "name": "RAM 32GB",
             "description": "RAM 32GB 16GBx2",
             "img": "@/assets/img/api/components/components7.jpg"
         },
         {
-            "id": "4",
+            "id": 4,
             "name": "RAM 64GB",
             "description": "RAM 64GB 16GBx4",
             "img": "@/assets/img/api/components/components8.jpg"
         }
     ],
     "SSD": [{
-            "id": "1",
+            "id": 1,
             "name": "SSD 256GB",
             "description": "SSD 256GB",
             "img": "@/assets/img/api/components/components9.jpg"
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "SSD 512GB",
             "description": "SSD 512GB",
             "img": "@/assets/img/api/components/components10.jpg"
         },
         {
-            "id": "3",
+            "id": 3,
             "name": "SSD 1TB",
             "description": "SSD 1TB",
             "img": "@/assets/img/api/components/components11.jpg"
         },
         {
-            "id": "4",
+            "id": 4,
             "name": "SSD 2TB",
             "description": "SSD 2TB",
             "img": "@/assets/img/api/components/components12.jpg"
         }
     ],
     "HDD": [{
-            "id": "1",
+            "id": 1,
             "name": "HDD 1TB",
             "description": "HDD 1TB",
             "img": "@/assets/img/api/components/components13.jpg"
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "HDD 2TB",
             "description": "HDD 2TB",
             "img": "@/assets/img/api/components/components14.jpg"
         },
         {
-            "id": "3",
+            "id": 3,
             "name": "HDD 4TB",
             "description": "HDD 4TB",
             "img": "@/assets/img/api/components/components15.jpg"
         },
         {
-            "id": "4",
+            "id": 4,
             "name": "HDD 8TB",
             "description": "HDD 8TB",
             "img": "@/assets/img/api/components/components16.jpg"
         }
     ],
     "GPU": [{
-            "id": "1",
+            "id": 1,
             "name": "RTX 3060ti",
             "description": "RTX 3060ti 10GB",
             "img": "@/assets/img/api/components/components17.jpg"
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "RTX 3070",
             "description": "RTX 3070 12GB",
             "img": "@/assets/img/api/components/components18.jpg"
         },
         {
-            "id": "3",
+            "id": 3,
             "name": "RTX 3080",
             "description": "RTX 3080 10GB",
             "img": "@/assets/img/api/components/components19.jpg"
         },
         {
-            "id": "4",
+            "id": 4,
             "name": "RTX 3090",
             "description": "RTX 3090 24GB",
             "img": "@/assets/img/api/components/components20.jpg"
         }
     ],
     "PSU": [{
-            "id": "1",
+            "id": 1,
             "name": "PSU 800W",
             "description": "PSU 800W",
             "img": "@/assets/img/api/components/components21.jpg"
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "PSU 900W",
             "description": "PSU 900W",
             "img": "@/assets/img/api/components/components22.jpg"
         },
         {
-            "id": "3",
+            "id": 3,
             "name": "PSU 1000W",
             "description": "PSU 1000W",
             "img": "@/assets/img/api/components/components23.jpg"
         },
         {
-            "id": "4",
+            "id": 4,
             "name": "PSU 1200W",
             "description": "PSU 1200W",
             "img": "@/assets/img/api/components/components24.jpg"
         }
     ],
     "case": [{
-            "id": "1",
+            "id": 1,
             "name": "Case 1",
             "description": "Case 1",
             "img": "@/assets/img/api/components/components25.jpg"
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "Case 2",
             "description": "Case 2",
             "img": "@/assets/img/api/components/components26.jpg"
         },
         {
-            "id": "3",
+            "id": 3,
             "name": "Case 3",
             "description": "Case 3",
             "img": "@/assets/img/api/components/components27.jpg"
         },
         {
-            "id": "4",
+            "id": 4,
             "name": "Case 4",
             "description": "Case 4",
             "img": "@/assets/img/api/components/components28.jpg"

@@ -333,14 +333,14 @@
     </section>
 </template>
 <script>
-    function cargarProductos() {
-        const url = 'localhost:3000/pc'
-        fetch(url)
-            .then(response => response.json())
-            .then(data => {
-                console.log(data)
-            })
-            .catch(error => console.log(error))
+const url = 'http://localhost:3000/pc';
+    async function cargarProductos() {
+        let response = await fetch('url');
+        let ordenadores = await response.json();
+        for (let i = 0; i < ordenadores.length; i++) {
+            console.log(data[i]);
+        }
+        return ordenadores;
     }
     cargarProductos();
 </script>
