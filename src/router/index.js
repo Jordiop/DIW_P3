@@ -9,10 +9,26 @@ const router = createRouter({
             component: () =>
                 import ('../views/HomeView.vue')
         }, {
-            path: '/pcs',
-            name: 'pcs',
+            path: '/pc',
+            name: 'pc',
             component: () =>
-                import ('../views/PCView.vue')
+                import ('../views/PCView.vue'),
+        }, {
+            path: '/pc/:id',
+            name: 'SinglePC',
+            component: () =>
+                import ('../views/SinglePC.vue'),
+            props: true
+        }, {
+            path: '/keyboard',
+            name: 'keyboard',
+            component: () =>
+                import ('../views/KeyboardView.vue')
+        }, {
+            path: '/mouse',
+            name: 'mouse',
+            component: () =>
+                import ('../views/MouseView.vue')
         },
         {
             path: '/about',

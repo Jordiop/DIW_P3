@@ -1,31 +1,30 @@
 <template>
   <link href="https://fonts.cdnfonts.com/css/son-of-a-glitch" rel="stylesheet">
-
   <body>
     <main class="p-1 bg-black">
       <div class="flex justify-center align-middle sm:max-w-fit mt-16">
         <swiper :scrollbar="true" :autoplay="true" :modules="modules" :loop="true" class="mySwiper">
           <swiper-slide>
             <div class="overflow-y-hidden max-h-96">
-              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="@/assets/images/slider1.jpg"
+              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="@/assets/images/home/slider1.jpg"
                 alt="image slide 1" />
             </div>
           </swiper-slide>
           <swiper-slide>
             <div class="overflow-y-hidden max-h-96">
-              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="@/assets/images/slider1.jpg"
+              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="@/assets/images/home/slider1.jpg"
                 alt="image slide 1" />
             </div>
           </swiper-slide>
           <swiper-slide>
             <div class="overflow-y-hidden max-h-96">
-              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="@/assets/images/slider1.jpg"
+              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="@/assets/images/home/slider1.jpg"
                 alt="image slide 1" />
             </div>
           </swiper-slide>
           <swiper-slide>
             <div class="overflow-y-hidden max-h-96">
-              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="@/assets/images/slider1.jpg"
+              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="@/assets/images/home/slider1.jpg"
                 alt="image slide 1" />
             </div>
           </swiper-slide>
@@ -37,7 +36,7 @@
           <div class="shadow-lg bg-white">
             <div class="max-h-fit">
               <a href="#!">
-                <img class="w-full" src="@/assets/images/cooler.jpg" alt="" />
+                <img class="w-full" src="@/assets/images/home/cooler.jpg" alt="" />
               </a>
             </div>
             <div class="p-0 flex justify-center">
@@ -50,7 +49,7 @@
           <div class=" shadow-lg bg-white">
             <div class="max-h-fit">
               <a href="#!">
-                <img class=" w-full" src="@/assets/images/builder.png" alt="" />
+                <img class=" w-full" src="@/assets/images/home/builder.png" alt="" />
               </a>
             </div>
             <div class="p-0 flex justify-center">
@@ -63,7 +62,7 @@
           <div class=" shadow-lg bg-white">
             <div class="max-h-fit">
               <a href="#!">
-                <img class="w-full" src="@/assets/images/teclado.jpg" alt="" />
+                <img class="w-full" src="@/assets/images/home/teclado.jpg" alt="" />
               </a>
             </div>
             <div class="p-0 flex justify-center">
@@ -76,7 +75,7 @@
           <div class="shadow-lg bg-white">
             <div class="max-h-fit">
               <a href="#!">
-                <img class=" w-full" src="@/assets/images/mouse_gaming.jpg" alt="" />
+                <img class=" w-full" src="@/assets/images/home/mouse_gaming.jpg" alt="" />
               </a>
             </div>
             <div class="p-0 flex justify-center">
@@ -89,7 +88,7 @@
           <div class="shadow-lg bg-white">
             <div class="max-h-fit">
               <a href="#!">
-                <img class="w-full" src="@/assets/images/arduino.jpg" alt="" />
+                <img class="w-full" src="@/assets/images/home/arduino.jpg" alt="" />
               </a>
             </div>
             <div class="p-0 flex justify-center">
@@ -105,13 +104,13 @@
         <div class="mb-4">
           <h5 class="text-center text-3xl font-bold text-white">CATEGORIES</h5>
         </div>
-        <swiper :scrollbar="true" :navigation="false" :autoplay="true" :modules="modules" :loop="true" class="mySwiper">
+        <swiper :scrollbar="true" :navigation="true" :autoplay="true" :modules="modules" :loop="true" class="mySwiper">
           <swiper-slide>
             <div class="flex justify-center overflow-hidden max-h-fit max-w-xl w-80">
               <div class="shadow-lg bg-white">
                 <div class="max-h-96">
                   <a href="#!">
-                    <img class="w-full" src="@/assets/images/pc_entero.jpg" alt="" />
+                    <img class="w-full" src="@/assets/images/home/pc_entero.jpg" alt="" />
                   </a>
                 </div>
                 <div class="p-0 flex justify-center">
@@ -125,7 +124,7 @@
               <div class="shadow-lg bg-white">
                 <div class="max-h-96">
                   <a href="#!">
-                    <img class="w-full" src="@/assets/images/pc_entero2.jpg" alt="" />
+                    <img class="w-full" src="@/assets/images/home/pc_entero2.jpg" alt="" />
                   </a>
                 </div>
                 <div class="p-0 flex justify-center">
@@ -139,7 +138,7 @@
               <div class="shadow-lg bg-white">
                 <div class="max-h-96">
                   <a href="#!">
-                    <img class="w-full" src="@/assets/images/pc_entero3.jpg" alt="" />
+                    <img class="w-full" src="@/assets/images/home/pc_entero3.jpg" alt="" />
                   </a>
                 </div>
                 <div class="p-0 flex justify-center">
@@ -153,7 +152,7 @@
               <div class="shadow-lg bg-white">
                 <div class="max-h-96">
                   <a href="#!">
-                    <img class="w-full" src="@/assets/images/house.png" alt="" />
+                    <img class="w-full" src="@/assets/images/home/house.png" alt="" />
                   </a>
                 </div>
                 <div class="p-0 flex justify-center">
@@ -169,7 +168,7 @@
           <div class="shadow-lg bg-white">
             <div class="max-h-96 overflow-hidden">
               <a href="#!">
-                <img class="w-full" src="@/assets/images/pc_entero.jpg" alt="" />
+                <img class="w-full" src="@/assets/images/home/pc_entero.jpg" alt="" />
               </a>
             </div>
             <div class="p-0 flex justify-center">
@@ -181,7 +180,7 @@
           <div class="shadow-lg bg-white">
             <div class="max-h-96">
               <a href="#!">
-                <img class="w-full" src="@/assets/images/pc_entero2.jpg" alt="" />
+                <img class="w-full" src="@/assets/images/home/pc_entero2.jpg" alt="" />
               </a>
             </div>
             <div class="p-0 flex justify-center">
@@ -193,7 +192,7 @@
           <div class="shadow-lg bg-white">
             <div class="max-h-96 overflow-hidden">
               <a href="#!">
-                <img class="w-full" src="@/assets/images/pc_entero3.jpg" alt="" />
+                <img class="w-full" src="@/assets/images/home/pc_entero3.jpg" alt="" />
               </a>
             </div>
             <div class="p-0 flex justify-center">
@@ -205,7 +204,7 @@
           <div class="shadow-lg bg-white">
             <div class="max-h-96">
               <a href="#!">
-                <img class="w-full" src="@/assets/images/house.png" alt="" />
+                <img class="w-full" src="@/assets/images/home/house.png" alt="" />
               </a>
             </div>
             <div class="p-0 flex justify-center">
