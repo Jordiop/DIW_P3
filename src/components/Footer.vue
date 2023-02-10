@@ -1,7 +1,7 @@
 <template>
     <footer>
-        <div class="bg-black text-center p-4 mx-auto text-gray-500 text-sm py-6 px-4">
-            <div class="md:flex justify-between items-center">
+        <div class="bg-black text-center p-4 mx-auto text-gray-500 text-sm px-4">
+            <div class="md:flex justify-between mx-80 items-center">
                 <div class="mb-4 md:mb-0">Designed by <a class="hover:underline text-gray-600"
                         href="https://github.com/Jordiop">Jordi Osarenkhoe Petro</a></div>
                 <div class="flex justify-center">

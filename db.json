@@ -33,6 +33,34 @@
             "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
             "img": "/src/assets/images/api/pc/pc5.jpg",
             "price": "1800€"
+        },
+        {
+            "id": 6,
+            "name": "PC Gaming",
+            "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
+            "img": "/src/assets/images/api/pc/pc5.jpg",
+            "price": "1800€"
+        },
+        {
+            "id": 7,
+            "name": "PC Gaming",
+            "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
+            "img": "/src/assets/images/api/pc/pc5.jpg",
+            "price": "1800€"
+        },
+        {
+            "id": 8,
+            "name": "PC Gaming",
+            "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
+            "img": "/src/assets/images/api/pc/pc5.jpg",
+            "price": "1800€"
+        },
+        {
+            "id": 9,
+            "name": "PC Gaming",
+            "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
+            "img": "/src/assets/images/api/pc/pc5.jpg",
+            "price": "1800€"
         }
     ],
     "keyboard": [{
