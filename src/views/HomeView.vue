@@ -1,8 +1,9 @@
 <template>
   <link href="https://fonts.cdnfonts.com/css/son-of-a-glitch" rel="stylesheet">
+
   <body>
     <main class="p-1 bg-black">
-      <div class="flex justify-center align-middle sm:max-w-fit mt-16">
+      <div class="flex justify-center align-middle max-w-fit mt-16">
         <swiper :scrollbar="true" :autoplay="true" :modules="modules" :loop="true" class="mySwiper">
           <swiper-slide>
             <div class="overflow-y-hidden max-h-96">
@@ -264,26 +265,26 @@ h5 {
 }
 </style>
 <script>
-  // Import Swiper Vue.js components
-  import { Swiper, SwiperSlide } from "swiper/vue";
-  // Import Swiper styles
-  import "swiper/css";
-  import "swiper/css/navigation";
-  import "swiper/css/scrollbar"
-  import "swiper/css/autoplay"
-  // import required modules
-  import { Navigation, Scrollbar, Autoplay } from "swiper";
-  import News from "@/components/News.vue";
-  export default {
-    components: {
-      News,
-      Swiper,
-      SwiperSlide,
-    },
-    setup() {
-      return {
-        modules: [Navigation, Scrollbar, Autoplay],
-      };
-    },
-  };
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from "swiper/vue";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/scrollbar"
+import "swiper/css/autoplay"
+// import required modules
+import { Navigation, Scrollbar, Autoplay } from "swiper";
+import News from "@/components/News.vue";
+export default {
+  components: {
+    News,
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    return {
+      modules: [Navigation, Scrollbar, Autoplay],
+    };
+  },
+};
 </script>
