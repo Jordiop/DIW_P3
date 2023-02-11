@@ -104,16 +104,6 @@ var navigation = [
         name: 'Keyboards',
         href: '/keyboard',
         current: false
-    },
-    {
-        name: 'Mouses',
-        href: '/mouse',
-        current: false
-    },
-    {
-        name: 'Others',
-        href: '/other',
-        current: false
     }
 ]
 

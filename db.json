@@ -4,323 +4,191 @@
             "name": "PC Gaming Obelisk",
             "description": "i9-13900K / 32GB / 2TB SSD / RTX 4080",
             "img": "/src/assets/images/api/pc/pc1.jpg",
-            "price": "1800€"
+            "components": [{
+                "Procesador": "i9-13900K",
+                "PlacaBase": "Asus ROG Strix Z590-E Gaming",
+                "MemoriaRAM": "32GB DDR5 6400Mhz",
+                "DiscoDuro": "2TB SSD y 2TB HDD",
+                "TarjetaGráfica": "RTX 4080",
+                "FuentedeAlimentación": "Cooler Master Pro 1200W",
+                "Caja": "NZXT Premium H9",
+                "Ventiladores": "Cooler MasterFan MF120R RGB"
+            }],
+            "price": "3500€"
         },
         {
             "id": 2,
             "name": "PC Gaming Omen",
             "description": "i7-13700K / 16GB / 1TB SSD / RTX 3080",
             "img": "/src/assets/images/api/pc/pc2.jpg",
-            "price": "1800€"
+            "components": [{
+                "Procesador": "i7-13700K",
+                "PlacaBase": "Asus ROG Strix Z490-E Gaming",
+                "MemoriaRAM": "16GB DDR5 6400Mhz",
+                "DiscoDuro": "1TB SSD y 2TB HDD",
+                "TarjetaGráfica": "RTX 3080",
+                "FuentedeAlimentación": "Cooler Master Pro 1200W",
+                "Caja": "NZXT Mid H9",
+                "Ventiladores": "Cooler MasterFan MF120R RGB"
+            }],
+            "price": "3000€"
         },
         {
             "id": 3,
             "name": "PC Gaming Predator",
-            "description": "i5-13600K / 16GB / 512GB SSD / RTX 3070",
+            "description": "i5-13600K / 16GB /  1TB SSD  / RTX 3070",
             "img": "/src/assets/images/api/pc/pc3.jpg",
-            "price": "1800€"
+            "components": [{
+                "Procesador": "i7-13700K",
+                "PlacaBase": "Asus ROG Strix Z490-E Gaming",
+                "MemoriaRAM": "16GB DDR5 6400Mhz",
+                "DiscoDuro": "1TB SSD y 1TB HDD",
+                "TarjetaGráfica": "RTX 3080",
+                "FuentedeAlimentación": "Cooler Master Pro 1200W",
+                "Caja": "NZXT Mid H9 Airflow",
+                "Ventiladores": "Cooler MasterFan MF120R RGB"
+            }],
+            "price": "2700€"
         },
         {
             "id": 4,
             "name": "PC Gaming Alien",
-            "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
+            "description": "i3-13500K / 16GB /  1TB SSD  / RTX 3060",
             "img": "/src/assets/images/api/pc/pc4.webp",
-            "price": "1800€"
+            "components": [{
+                "Procesador": "i3-13500K",
+                "PlacaBase": "Asus ROG Strix Z470-E",
+                "MemoriaRAM": "16GB DDR5 6400Mhz",
+                "DiscoDuro": "1TB SSD y 1TB HDD",
+                "TarjetaGráfica": "RTX 3070",
+                "FuentedeAlimentación": "Cooler Master Pro 900W",
+                "Caja": "NZXT Low H7",
+                "Ventiladores": "Cooler Master MasterFan MF120R RGB"
+            }],
+            "price": "2000€"
         },
         {
             "id": 5,
             "name": "PC Gaming",
-            "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
+            "description": "5900X / 32GB / 2TB SSD / RTX 4080",
             "img": "/src/assets/images/api/pc/pc5.jpg",
-            "price": "1800€"
+            "components": [{
+                "Procesador": "Ryzen 9 5900X",
+                "PlacaBase": "Aorus X570 Elite",
+                "MemoriaRAM": "32GB DDR5 6400Mhz",
+                "DiscoDuro": "2TB SSD y 2TB HDD",
+                "TarjetaGráfica": "RTX 4080",
+                "FuentedeAlimentación": "Cooler Master Pro 1200W",
+                "Caja": "NZXT Premium H5",
+                "Ventiladores": "Cooler Master MasterFan MF120R RGB"
+            }],
+            "price": "3200€"
         },
         {
             "id": 6,
             "name": "PC Gaming",
-            "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
-            "img": "/src/assets/images/api/pc/pc5.jpg",
-            "price": "1800€"
+            "description": "5800X / 16GB / 1TB SSD / RTX 3080",
+            "img": "/src/assets/images/api/pc/pc6.jpg",
+            "components": [{
+                "Procesador": "Ryzen 9 5800X",
+                "PlacaBase": "Aorus X570 Supreme",
+                "MemoriaRAM": "16GB DDR5 6400Mhz",
+                "DiscoDuro": "1TB SSD y 2TB HDD",
+                "TarjetaGráfica": "RTX 3080",
+                "FuentedeAlimentación": "Cooler Master Pro 1200W",
+                "Caja": "NZXT Premium H510i",
+                "Ventiladores": "Cooler Master MasterFan MF120R RGB"
+            }],
+            "price": "1600€"
         },
         {
             "id": 7,
             "name": "PC Gaming",
-            "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
-            "img": "/src/assets/images/api/pc/pc5.jpg",
-            "price": "1800€"
+            "description": "5700X / 16GB /  1TB SSD  / RTX 3060",
+            "img": "/src/assets/images/api/pc/pc7.jpg",
+            "components": [{
+                "Procesador": "Ryzen 9 5700X",
+                "PlacaBase": "Aorus X570 Ultra Durable",
+                "MemoriaRAM": "16GB DDR5 6400Mhz",
+                "DiscoDuro": "1TB SSD y 1TB HDD",
+                "TarjetaGráfica": "RTX 3070",
+                "FuentedeAlimentación": "Cooler Master Pro 1200W",
+                "Caja": "NZXT Premium H505i",
+                "Ventiladores": "Cooler Master MasterFan MF120R RGB"
+            }],
+            "price": "1600€"
         },
         {
             "id": 8,
             "name": "PC Gaming",
-            "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
-            "img": "/src/assets/images/api/pc/pc5.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 9,
-            "name": "PC Gaming",
-            "description": "i3-13500K / 16GB / 512GB SSD / RTX 3060",
-            "img": "/src/assets/images/api/pc/pc5.jpg",
-            "price": "1800€"
+            "description": "5600X / 16GB / 512GB SSD / RTX 3060",
+            "img": "/src/assets/images/api/pc/pc8.jpg",
+            "components": [{
+                "Procesador": "Ryzen 9 5600X",
+                "PlacaBase": "Aorus B550m DS3H Ultra Durable",
+                "MemoriaRAM": "16GB DDR5 6400Mhz",
+                "DiscoDuro": "1TB SSD y 1TB HDD",
+                "TarjetaGráfica": "RTX 3060",
+                "FuentedeAlimentación": "Cooler Master Pro 1200W",
+                "Caja": "NZXT Premium H501i",
+                "Ventiladores": "Cooler Master MasterFan MF120R RGB"
+            }],
+            "price": "1400€"
         }
     ],
     "keyboard": [{
             "id": 1,
             "name": "Keyboard Gaming",
             "description": "Keyboard Gaming",
-            "img": "@/assets/images/api/keyboard/keyboard1.jpg",
+            "img": "/src/assets/images/api/keyboard/kb1.png",
             "price": "1800€"
         },
         {
             "id": 2,
             "name": "Keyboard Gaming",
             "description": "Keyboard Gaming",
-            "img": "@/assets/images/api/keyboard/keyboard2.jpg",
+            "img": "/src/assets/images/api/keyboard/kb2.png",
             "price": "1800€"
         },
         {
             "id": 3,
             "name": "Keyboard Gaming",
             "description": "Keyboard Gaming",
-            "img": "@/assets/images/api/keyboard/keyboard3.jpg",
+            "img": "/src/assets/images/api/keyboard/kb3.png",
             "price": "1800€"
         },
         {
             "id": 4,
             "name": "Keyboard Gaming",
             "description": "Keyboard Gaming",
-            "img": "@/assets/images/api/keyboard/keyboard4.jpg",
-            "price": "1800€"
-        }
-    ],
-    "mouse": [{
-            "id": 1,
-            "name": "Mouse Gaming",
-            "description": "Mouse Gaming",
-            "img": "@/assets/images/api/mouse/mouse1.jpg",
+            "img": "/src/assets/images/api/keyboard/kb5.png",
             "price": "1800€"
         },
         {
-            "id": 2,
-            "name": "Mouse Gaming",
-            "description": "Mouse Gaming",
-            "img": "@/assets/images/api/mouse/mouse2.jpg",
+            "id": 5,
+            "name": "Mouse Razer Viper",
+            "description": "Mouse Razer Viper",
+            "img": "/src/assets/images/api/keyboard/m1.png",
+            "price": "1800€"
+        }, {
+            "id": 6,
+            "name": "Mouse Razer Viper",
+            "description": "Mouse Razer Viper",
+            "img": "/src/assets/images/api/keyboard/m2.png",
             "price": "1800€"
         },
         {
-            "id": 3,
-            "name": "Mouse Gaming",
-            "description": "Mouse Gaming",
-            "img": "@/assets/images/api/mouse/mouse3.jpg",
+            "id": 7,
+            "name": "Mouse Razer Viper",
+            "description": "Mouse Razer Viper",
+            "img": "/src/assets/images/api/keyboard/m3.png",
             "price": "1800€"
         },
         {
-            "id": 4,
-            "name": "Mouse Gaming",
-            "description": "Mouse Gaming",
-            "img": "@/assets/images/api/mouse/mouse4.jpg",
-            "price": "1800€"
-        }
-    ],
-    "processor": [{
-            "id": 1,
-            "name": "i3-13500K",
-            "description": "i3-13500K 4.1GHz 4C/4T",
-            "img": "@/assets/images/api/components/components1.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 2,
-            "name": "i5-13600K",
-            "description": "i5-13600K 4.1GHz 6C/6T",
-            "img": "@/assets/images/api/components/components2.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 3,
-            "name": "i7-13700K",
-            "description": "i7-13700K 4.1GHz 8C/16T",
-            "img": "@/assets/images/api/components/components3.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 4,
-            "name": "i9-13900K",
-            "description": "i9-13900K 4.1GHz 10C/20T",
-            "img": "@/assets/images/api/components/components4.jpg",
-            "price": "1800€"
-        }
-    ],
-    "RAM": [{
-            "id": 1,
-            "name": "RAM 8GB",
-            "description": "RAM 8GB 8GBx1",
-            "img": "@/assets/images/api/components/components5.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 2,
-            "name": "RAM 16GB",
-            "description": "RAM 16GB 8GBx2",
-            "img": "@/assets/images/api/components/components6.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 3,
-            "name": "RAM 32GB",
-            "description": "RAM 32GB 16GBx2",
-            "img": "@/assets/images/api/components/components7.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 4,
-            "name": "RAM 64GB",
-            "description": "RAM 64GB 16GBx4",
-            "img": "@/assets/images/api/components/components8.jpg",
-            "price": "1800€"
-        }
-    ],
-    "SSD": [{
-            "id": 1,
-            "name": "SSD 256GB",
-            "description": "SSD 256GB",
-            "img": "@/assets/images/api/components/components9.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 2,
-            "name": "SSD 512GB",
-            "description": "SSD 512GB",
-            "img": "@/assets/images/api/components/components10.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 3,
-            "name": "SSD 1TB",
-            "description": "SSD 1TB",
-            "img": "@/assets/images/api/components/components11.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 4,
-            "name": "SSD 2TB",
-            "description": "SSD 2TB",
-            "img": "@/assets/images/api/components/components12.jpg",
-            "price": "1800€"
-        }
-    ],
-    "HDD": [{
-            "id": 1,
-            "name": "HDD 1TB",
-            "description": "HDD 1TB",
-            "img": "@/assets/images/api/components/components13.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 2,
-            "name": "HDD 2TB",
-            "description": "HDD 2TB",
-            "img": "@/assets/images/api/components/components14.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 3,
-            "name": "HDD 4TB",
-            "description": "HDD 4TB",
-            "img": "@/assets/images/api/components/components15.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 4,
-            "name": "HDD 8TB",
-            "description": "HDD 8TB",
-            "img": "@/assets/images/api/components/components16.jpg",
-            "price": "1800€"
-        }
-    ],
-    "GPU": [{
-            "id": 1,
-            "name": "RTX 3060ti",
-            "description": "RTX 3060ti 10GB",
-            "img": "@/assets/images/api/components/components17.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 2,
-            "name": "RTX 3070",
-            "description": "RTX 3070 12GB",
-            "img": "@/assets/images/api/components/components18.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 3,
-            "name": "RTX 3080",
-            "description": "RTX 3080 10GB",
-            "img": "@/assets/images/api/components/components19.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 4,
-            "name": "RTX 3090",
-            "description": "RTX 3090 24GB",
-            "img": "@/assets/images/api/components/components20.jpg",
-            "price": "1800€"
-        }
-    ],
-    "PSU": [{
-            "id": 1,
-            "name": "PSU 800W",
-            "description": "PSU 800W",
-            "img": "@/assets/images/api/components/components21.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 2,
-            "name": "PSU 900W",
-            "description": "PSU 900W",
-            "img": "@/assets/images/api/components/components22.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 3,
-            "name": "PSU 1000W",
-            "description": "PSU 1000W",
-            "img": "@/assets/images/api/components/components23.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 4,
-            "name": "PSU 1200W",
-            "description": "PSU 1200W",
-            "img": "@/assets/images/api/components/components24.jpg",
-            "price": "1800€"
-        }
-    ],
-    "case": [{
-            "id": 1,
-            "name": "Case 1",
-            "description": "Case 1",
-            "img": "@/assets/images/api/components/components25.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 2,
-            "name": "Case 2",
-            "description": "Case 2",
-            "img": "@/assets/images/api/components/components26.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 3,
-            "name": "Case 3",
-            "description": "Case 3",
-            "img": "@/assets/images/api/components/components27.jpg",
-            "price": "1800€"
-        },
-        {
-            "id": 4,
-            "name": "Case 4",
-            "description": "Case 4",
-            "img": "@/assets/images/api/components/components28.jpg",
+            "id": 8,
+            "name": "Mouse Razer Viper",
+            "description": "Mouse Razer Viper",
+            "img": "/src/assets/images/api/keyboard/m4.png",
             "price": "1800€"
         }
     ]

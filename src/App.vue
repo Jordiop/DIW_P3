@@ -7,7 +7,7 @@
 <template>
   <div id="app">
     <Header />
-    <Suspense><RouterView /></Suspense>
+      <RouterView />
     <Footer />
   </div>
 </template>

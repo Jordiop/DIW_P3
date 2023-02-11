@@ -1,5 +1,5 @@
 <script>
-const items = [];
+const keyboards = [];
 export default {
     name: "KeyboardView",
     data() {
@@ -18,6 +18,7 @@ export default {
 </script>
 <template>
     <section class="py-12 bg-black">
+        <h5 class="text-4xl mt-8 text-center text-white">Nuestra selección de Teclados y ratones</h5><br>
         <div class="mx-auto grid max-w-6xl  grid-cols-1 gap-6 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <article v-for="keyboard in keyboards" :key="keyboard.id"
                 class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
