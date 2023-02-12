@@ -24,11 +24,12 @@ const router = createRouter({
             name: 'keyboard',
             component: () =>
                 import ('../views/KeyboardView.vue')
-        }, {
-            path: '/mouse',
-            name: 'mouse',
+        },
+        {
+            path: '/login',
+            name: 'login',
             component: () =>
-                import ('../views/MouseView.vue')
+                import ('../views/LoginView.vue')
         },
         {
             path: '/about',

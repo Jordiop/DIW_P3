@@ -191,5 +191,16 @@
             "img": "/src/assets/images/api/keyboard/m4.png",
             "price": "1800€"
         }
-    ]
+    ],
+    "admin": [{
+        "id": 1,
+        "name": "admin",
+        "password": "admin"
+    }],
+    "users": [{
+        "id": 1,
+        "name": "user",
+        "password": "user",
+        "cart": []
+    }]
 }
