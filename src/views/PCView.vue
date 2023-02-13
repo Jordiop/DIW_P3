@@ -1,5 +1,4 @@
 <script>
-const items = [];
 export default {
     name: "PCView",
     data() {
@@ -12,7 +11,6 @@ export default {
             .then(response => response.json())
             .then(data => {
                 this.items = data
-                console.log(data)
             })
     }
 }
@@ -36,7 +34,7 @@ export default {
                             </p>
                             <div
                                 class="flex items-center space-x-1.5 rounded-lg bg-blue-500 px-4 py-1.5 text-white duration-100 hover:bg-blue-600">
-                                <router-link :to="{ path: '/pc/' + item.id, params:   }">More</router-link>
+                                <router-link :to="{ path: '/pc/' + item.id, params: id = item.id }">More</router-link>
                             </div>
                         </div>
                     </div>

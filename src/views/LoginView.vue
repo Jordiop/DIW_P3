@@ -1,41 +1,4 @@
 <script>
-const loged = "";
-function login() {
-    let usuario = "";
-    let password = "";
-    let admins = [];
-    usuario = document.getElementById("user").value;
-    password = document.getElementById("password").value;
-    if (usuario == "admin") {
-        fetch("localhost:3000/admin")
-            .then(response => response.json())
-            .then(data => {
-                admins.push(data)
-            })
-        for (let i = 0; i < admins.length; i++) {
-            if (admins.usuario[i] == usuario && password == admins[i].password) {
-                window.location.href = "http://localhost:5173/admin"
-                loged = sessionStorage.setItem("loged", "admin");
-            }
-        }
-    } else {
-        let users = [];
-        fetch("localhost:3000/users")
-            .then(response => response.json())
-            .then(data => {
-                users.push(data)
-            })
-        for (let i = 0; i < users.length; i++) {
-            if (users.usuario[i] == usuario && password == users[i].password) {
-                window.location.href = "http://localhost:5173/"
-                loged = sessionStorage.setItem("loged", "usuario");
-            }
-        }
-    }
-}
-function register() {
-
-}
 
 </script>
 <template>

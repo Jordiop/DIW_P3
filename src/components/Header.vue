@@ -41,7 +41,7 @@
                                 class="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                                 <span class="sr-only">Open user menu</span>
                                 <img class="h-8 w-8 rounded-full"
-                                    src="https://assets.stickpng.com/images/585e4beacb11b227491c3399.png" alt="" />
+                                    src="https://icons.veryicon.com/png/o/miscellaneous/two-color-icon-library/user-286.png" alt="" />
                             </MenuButton>
                         </div>
                         <transition enter-active-class="transition ease-out duration-100"
@@ -81,7 +81,7 @@
 
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 
 
@@ -97,8 +97,12 @@ var navigation = [
         current: false
     },
     {
-        name: 'Keyboards',
+        name: 'Peripherals',
         href: '/keyboard',
+        current: false
+    },{
+        name: 'About',
+        href: '/about',
         current: false
     }
 ]

@@ -16,7 +16,6 @@ export default {
             .then(response => response.json())
             .then(data => {
                 this.pcs = data
-                console.log(data)
             })
     },
 }
