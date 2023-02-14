@@ -20,16 +20,10 @@ const router = createRouter({
                 import ('../views/SinglePC.vue'),
             props: true
         }, {
-            path: '/keyboard',
-            name: 'keyboard',
+            path: '/peripherals',
+            name: 'peripheral',
             component: () =>
                 import ('../views/KeyboardView.vue')
-        },
-        {
-            path: '/login',
-            name: 'login',
-            component: () =>
-                import ('../views/LoginView.vue')
         },
         {
             path: '/about',

@@ -31,3 +31,7 @@ npm run build
 Paginas consultadas y/o utilizadas para la realización del proyecto:
 https://www.corsair.com/es/es/
 https://pccomponentes.com/
+
+### Puntuación de rendimiento en Lighthouse
+
+<img src="/src/assets/images/Rendimiento.png"/>

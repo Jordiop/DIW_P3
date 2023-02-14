@@ -7,7 +7,7 @@ export default {
             keyboards: [],
         }
     },
-    mounted() {
+    async mounted() {
         fetch("http://localhost:3000/keyboard")
             .then(response => response.json())
             .then(data => {

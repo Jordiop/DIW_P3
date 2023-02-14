@@ -5,7 +5,7 @@
                 style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="dark">
                 <img src="https://www.geekmi.news/__export/1599258835965/sites/debate/img/2020/09/04/ddtecgx_crop1599258835468.jpeg_674994428.jpeg"
                     class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="#!">
+                <a href="/pc">
                     <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                         style="background-color: rgba(0, 0, 0, 0.3)">
                         <div class="flex justify-start items-end h-full">
@@ -22,7 +22,7 @@
                 style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="dark">
                 <img src="https://sm.ign.com/ign_es/screenshot/default/razorkeyboard_yh4w.jpg"
                     class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="#!">
+                <a href="/peripherals">
                     <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                         style="background-color: rgba(0, 0, 0, 0.3)">
                         <div class="flex justify-start items-end h-full">

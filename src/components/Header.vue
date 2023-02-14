@@ -98,7 +98,7 @@ var navigation = [
     },
     {
         name: 'Peripherals',
-        href: '/keyboard',
+        href: '/peripherals',
         current: false
     },{
         name: 'About',

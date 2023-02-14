@@ -6,7 +6,7 @@ export default {
             items: [],
         }
     },
-    mounted() {
+    async mounted() {
         fetch("http://localhost:3000/pc")
             .then(response => response.json())
             .then(data => {

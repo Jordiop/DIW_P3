@@ -2,24 +2,24 @@
   <link href="https://fonts.cdnfonts.com/css/son-of-a-glitch" rel="stylesheet">
 
   <body>
-    <main class="p-1 flex flex-col place-items-center justify-center bg-black">
+    <main class="flex flex-col place-items-center justify-center bg-black">
       <div class="flex align-middle mt-16 rounded-lg overflow-hidden w-5/6">
-        <swiper :scrollbar="true" :autoplay="true" :modules="modules" :loop="true" class="mySwiper">
+        <swiper :modules="modules" :autoplay="true" :loop="true" class="mySwiper">
           <swiper-slide>
             <div class="overflow-y-hidden max-h-96">
-              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="@/assets/images/home/slider1.jpg"
+              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="https://i.blogs.es/449eed/pc/1366_2000.jpg"
                 alt="image slide 1" />
             </div>
           </swiper-slide>
           <swiper-slide>
             <div class="overflow-y-hidden max-h-96">
-              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="@/assets/images/home/slider1.jpg"
+              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="https://media.steelseriescdn.com/thumbs/blog/posts/6-ways-to-make-your-pc-setup-look-awesome/5a5af93b19cd4be5ba8ce4cc27467856.jpg.1200x630_q100_crop-scale_optimize_upscale.jpg"
                 alt="image slide 1" />
             </div>
           </swiper-slide>
           <swiper-slide>
             <div class="overflow-y-hidden max-h-96">
-              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="@/assets/images/home/slider1.jpg"
+              <img className="object-fill -mt-96 w-full h-full overflow-hidden" src="https://www.gamingdebugged.com/wp-content/uploads/2021/09/purple-gaming-set-up-1.jpg"
                 alt="image slide 1" />
             </div>
           </swiper-slide>
@@ -83,7 +83,6 @@ import Builds from "@/components/Builds.vue"
 import Categories from "@/components/Categories.vue"
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/scrollbar"
 import "swiper/css/autoplay"
 // import required modules
 import { Navigation, Scrollbar, Autoplay } from "swiper";
@@ -96,7 +95,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Scrollbar, Autoplay],
+      modules: [Autoplay],
     };
   },
 };

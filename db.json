@@ -138,58 +138,61 @@
     ],
     "keyboard": [{
             "id": 1,
-            "name": "Keyboard Gaming",
+            "name": "Keyboard Gaming Pro 1",
             "description": "Keyboard Gaming",
             "img": "/src/assets/images/api/keyboard/kb1.png",
-            "price": "1800€"
+            "price": "140€"
         },
         {
             "id": 2,
-            "name": "Keyboard Gaming",
+            "name": "Keyboard Gaming Pro 2",
             "description": "Keyboard Gaming",
             "img": "/src/assets/images/api/keyboard/kb2.png",
-            "price": "1800€"
+            "price": "120€"
         },
         {
             "id": 3,
-            "name": "Keyboard Gaming",
+            "name": "Keyboard Gaming Noob",
             "description": "Keyboard Gaming",
             "img": "/src/assets/images/api/keyboard/kb3.png",
-            "price": "1800€"
+            "price": "100€"
         },
         {
             "id": 4,
-            "name": "Keyboard Gaming",
+            "name": "Keyboard Gaming Omega",
             "description": "Keyboard Gaming",
             "img": "/src/assets/images/api/keyboard/kb5.png",
-            "price": "1800€"
+            "price": "90€"
         },
         {
             "id": 5,
-            "name": "Mouse Razer Viper",
+            "name": "Mouse Razer Viper Elite",
             "description": "Mouse Razer Viper",
             "img": "/src/assets/images/api/keyboard/m1.png",
-            "price": "1800€"
+            "price": "70€"
         }, {
             "id": 6,
-            "name": "Mouse Razer Viper",
+            "name": "Mouse Razer Viper Prime",
             "description": "Mouse Razer Viper",
             "img": "/src/assets/images/api/keyboard/m2.png",
-            "price": "1800€"
+            "price": "60€"
         },
         {
             "id": 7,
-            "name": "Mouse Razer Viper",
+            "name": "Mouse Razer Omega",
             "description": "Mouse Razer Viper",
             "img": "/src/assets/images/api/keyboard/m3.png",
-            "price": "1800€"
+            "price": "50€"
         },
         {
             "id": 8,
-            "name": "Mouse Razer Viper",
+            "name": "Mouse Razer Barracuda",
             "description": "Mouse Razer Viper",
             "img": "/src/assets/images/api/keyboard/m4.png",
-            "price": "1800€"
+            "price": "40€"
         }
-    ]
+    ],
+    "pedidos": [{
+
+    }]
 }
