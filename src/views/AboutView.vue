@@ -64,12 +64,6 @@ function borrar(id) {
 }
 
 function actualizarPresupuesto(email, nombre, presupuesto, uso, peticiones, estado, id) {
-  /* let email = document.getElementById("email").value;
-  let nombre = document.getElementById("nombre").value;
-  let presupuesto = document.getElementById("presupuesto").value;
-  let uso = document.getElementById("uso").value;
-  let peticiones = document.getElementById("comentario").value;
-  let estado = "pendiente"; */
   fetch("http://localhost:3000/presupuesto/" + id, {
     method: "PATCH",
     headers: {
