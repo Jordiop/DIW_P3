@@ -221,12 +221,13 @@
       "peticiones": "quiero que sea lo mas potente posible"
     },
     {
-      "id": 2,
       "email": "biel@gmail.com",
-      "name": "Biel",
-      "presupuesto": "20€",
-      "uso": "gaming",
-      "peticiones": "quiero que sea lo mas potente posible"
+      "name": "",
+      "presupuesto": "700",
+      "uso": "",
+      "peticiones": "",
+      "estado": "pendiente",
+      "id": 2
     }
   ]
 }
