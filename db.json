@@ -222,22 +222,31 @@
       "estado": "Pendiente"
     },
     {
-      "id": 2,
       "email": "biel@gmail.com",
-      "name": "Biel",
-      "presupuesto": "1000€",
-      "uso": "Gaming",
-      "peticiones": "Ninguna",
-      "estado": "Pendiente"
+      "name": "biel",
+      "presupuesto": 1400,
+      "uso": "ninguno",
+      "peticiones": "aaa",
+      "estado": "pendiente",
+      "id": 2
     },
     {
       "email": "andreu@gmail.com",
       "name": "Andreu",
-      "presupuesto": 4500,
-      "uso": "Extreme",
-      "peticiones": "no",
+      "presupuesto": 1500,
+      "uso": "Complementario",
+      "peticiones": "PC secundario",
       "estado": "pendiente",
       "id": 3
+    },
+    {
+      "email": "marc@xd.com",
+      "name": "a",
+      "presupuesto": 0,
+      "uso": "a ",
+      "peticiones": "a",
+      "estado": "pendiente",
+      "id": 4
     }
   ]
 }
