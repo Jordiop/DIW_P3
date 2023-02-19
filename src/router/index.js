@@ -1,4 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { useCookies } from "vue3-cookies";
+const { cookies } = useCookies();
 
 const router = createRouter({
     history: createWebHistory(
@@ -23,7 +25,17 @@ const router = createRouter({
         path: '/peripherals',
         name: 'peripheral',
         component: () =>
-            import ('../views/KeyboardView.vue')
+            import ('../views/KeyboardView.vue'),
+    }, {
+        path: '/carrito',
+        name: 'carrito',
+        component: () =>
+            import ('../views/CarritoView.vue'),
+    }, {
+        path: '/login',
+        name: 'login',
+        component: () =>
+            import ('../views/LoginView.vue'),
     }, {
         path: '/about',
         name: 'about',

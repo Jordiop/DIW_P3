@@ -20,14 +20,14 @@
                     <div class="hidden sm:ml-6 sm:block">
                         <div class="flex space-x-4">
                             <a v-for="item in navigation" :key="item.name" :href="item.href"
-                                :class="[item.current ? 'bg-red-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium']"
+                                :class="[item.current ? 'bg-blue-500 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium']"
                                 :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
                         </div>
                     </div>
                 </div>
                 <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                     <!-- Aprofitar per carrito -->
-                    <button type="button" onclick="window.location.href = '/cart';"
+                    <button type="button" onclick="window.location.href = '/carrito';"
                         class="text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                         <span class="sr-only">Carrito</span>
                         <img class="h-8 w-8 rounded-full"
@@ -52,16 +52,16 @@
                             leave-to-class="transform opacity-0 scale-95">
                             <MenuItems
                                 class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                                <MenuItem><p>{{ username }}</p></MenuItem>
-                                <MenuItem v-slot="{ active }">
+                                <MenuItem><p id="username">{{ username }}</p></MenuItem>
+                                <MenuItem v-if="username == null" v-slot="{ active }">
                                 <a href="/login"
                                     :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">
                                     Log In</a>
                                 </MenuItem>
-                                <MenuItem v-slot="{ active }">
-                                <a href="#"
-                                    :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">Sign
-                                    out</a>
+                                <MenuItem v-if="username != null" v-slot="{ active }">
+                                    <a href="/" @click="logout"
+                                        :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">
+                                        Log Out</a>
                                 </MenuItem>
                             </MenuItems>
                         </transition>
@@ -80,9 +80,10 @@
     </Disclosure>
 </template>
 
-<script setup>
+<script>
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+import VueCookies from 'vue-cookies'
 
 var navigation = [
     {
@@ -105,5 +106,44 @@ var navigation = [
         current: false
     }
 ]
+
+export default {
+    components: {
+        Disclosure,
+        DisclosureButton,
+        DisclosurePanel,
+        Menu,
+        MenuButton,
+        MenuItem,
+        MenuItems,
+        Bars3Icon,
+        XMarkIcon
+    },
+    methods : {
+        logout() {
+            VueCookies.remove('user');
+            window.location.href = '/';
+        }
+    },
+    setup() {
+        for (let i = 0; i < navigation.length; i++) {
+            if (navigation[i].href == window.location.pathname) {
+                navigation[i].current = true
+            }
+        }
+        return {
+            navigation,
+        }
+    },
+    mounted() {
+        this.username = VueCookies.get('user');
+        console.log(this.username)
+    },
+    data() {
+        return {
+            username: ''
+        }
+    }
+}
 
 </script>
